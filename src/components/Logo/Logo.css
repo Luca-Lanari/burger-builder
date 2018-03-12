@@ -1,0 +1,13 @@
+.Logo {
+    background-color: white;
+    padding: 8px;
+    height: 100%; /*Qui lascio l'altezza a 100% e dove devo gestirla, ad esempio nel SideDrawer
+                    e nella Toolbar gestisco l'altezza in due possibili modi. (Vedi Toolbar.js
+                    e SideDrawer.js)*/
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Logo img {
+    height: 100%;
+}

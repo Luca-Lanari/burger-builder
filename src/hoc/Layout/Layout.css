@@ -1,0 +1,5 @@
+.Content {
+    margin-top: 72px; /*Sto creando un margin (una distanza) tra l'header e gli elementi sottostanti.
+                        il margin-top è di 72 perchè è la somma dell'height di .Toolbar in Toolbar.css
+                        più i 16px che c'erano prima.  */
+}

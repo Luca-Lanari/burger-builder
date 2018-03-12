@@ -1,0 +1,34 @@
+.Burger {
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    overflow: auto; /*Questo serve se il burger è più grande di 250px renderlo scrollable.
+                      devo inserire auto invece di scroll perchè altrimenti da problemi di grafica in chrome*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*I media query seguenti servono per adattare la grandezza del Burger ai dispositivi mobile*/
+@media (min-width: 500px) and (min-height: 400px) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Burger {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+/*Se il media query ha come larghezza minima 1000px e altezza mininima 700px allora altezza e larghezza della 
+  classe Burger saranno di 600px e 700px*/
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Burger {
+        width: 700px;
+        height: 600px;
+    }
+}
